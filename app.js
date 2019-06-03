@@ -1,11 +1,10 @@
-function Header() {
-    return (
-        <header>
-            <h1>Scoreboard</h1>
-            <span className="stats">Players: 1</span>
-        </header>
-    );
-}
+function Header = () => (
+    <header>
+        <h1>Scoreboard</h1>
+        <span className="stats">Players: 1</span>
+    </header>
+);
+// Arrow functions are used for a more consise way of reading/writing code.
 // React comonents are required to begin with a capital letter.
 
 ReactDOM.render(
