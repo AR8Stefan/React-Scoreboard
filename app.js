@@ -14,13 +14,19 @@ const Player = () => {
                 Stefan
             </span>
 
-            <div className="counter">
-                <button className="counter-action decrement"> - </button>
-                <span className="counter-score">1</span>
-                <button className="counter-action increment"> + </button>
-            </div>
+            <Counter />
         </div>
-    )
+    );
+}
+
+const Counter = () => {
+    return (
+        <div className="counter">
+            <button className="counter-action decrement"> - </button>
+            <span className="counter-score">1</span>
+            <button className="counter-action increment"> + </button>
+        </div>
+    );
 }
 
 ReactDOM.render(
