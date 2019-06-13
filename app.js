@@ -1,22 +1,25 @@
 const players = [
     {
         name: "Stefan",
-        score: 50
+        score: 50,
+        id: 1
     },
     {
         name: "Jess",
-        score: 85
+        score: 85,
+        id: 2
     },
     {
         name: "Indie",
-        score: 95
+        score: 95,
+        id: 3
     }
 ]
 
 const Header = (props) => {
     return (
         <header>
-            <h1>{ props.title }</h1>
+            <h1> { props.title } </h1>
             <span className="stats">Players: { props.totalPlayers }</span>
         </header>
     );
@@ -57,6 +60,7 @@ const App = (props) => {
                 <Player 
                     name={player.name}
                     score={player.score}
+                    key={player.id.toString()}
                 />
             )}
         </div>
