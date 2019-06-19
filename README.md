@@ -12,7 +12,15 @@ http://jamesknelson.com/javascript-return-parenthesis/
 https://reactjs.org/docs/components-and-props.html#functional-and-class-components
 https://reactjs.org/docs/jsx-in-depth.html#user-defined-components-must-be-capitalized
 https://www.robinwieruch.de/react-component-composition/
+https://reactjs.org/docs/lists-and-keys.html#keys
 
+https://github.com/uberVU/react-guide/blob/master/props-vs-state.md
+https://reactjs.org/docs/faq-state.html
+https://reactjs.org/docs/state-and-lifecycle.html#adding-local-state-to-a-class
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends
+https://reactjs.org/docs/state-and-lifecycle.html#converting-a-function-to-a-class
+https://reactjs.org/docs/react-component.html
 
 ### Create a React Component:
   * Define the component as a function or class.
