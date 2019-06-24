@@ -21,6 +21,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/extends
 https://reactjs.org/docs/state-and-lifecycle.html#converting-a-function-to-a-class
 https://reactjs.org/docs/react-component.html
+https://css-tricks.com/understanding-react-setstate/
+https://reactjs.org/docs/state-and-lifecycle.html#using-state-correctly
 
 ### Create a React Component:
   * Define the component as a function or class.
